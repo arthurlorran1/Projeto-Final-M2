@@ -1,18 +1,19 @@
 # Projeto-Final-M2
 Esse é o projeto individual do segundo modulo do curso de analise de dados SENAC/RESILIA 2023
+Este programa é uma ferramenta útil para empresas que desejam gerenciar candidatos em seu processo de seleção, permitindo o armazenamento e recuperação de informações com base em critérios específicos.
 
 
-Instruções de Instalação:
+# Instruções de Instalação:
 Certifique-se de ter o Python instalado no seu sistema. Baixe o Python aqui, se necessário.
 
-Abra o terminal ou prompt de comando.
+# Abra o terminal ou prompt de comando.
 
 Instale as bibliotecas necessárias: numpy; selenium e pandas.
 
 
 
 
-Aqui está um resumo dos principais componentes do programa:
+# Aqui está um resumo dos principais componentes do programa:
 
 Classe Candidato: Primeiro, criamos uma classe chamada Candidato que tem atributos para armazenar informações sobre o candidato, como número do candidato, nota na entrevista, nota no teste teórico, nota no teste prático e nota na avaliação de soft skills.
 
@@ -26,4 +27,3 @@ Feedback do Usuário: O programa fornece feedback para o usuário, incluindo men
 
 Validação de Entrada: O programa valida as entradas do usuário para garantir que sejam do tipo correto (por exemplo, números em vez de letras).
 
-Este programa é uma ferramenta útil para empresas que desejam gerenciar candidatos em seu processo de seleção, permitindo o armazenamento e recuperação de informações com base em critérios específicos.
