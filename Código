@@ -1,0 +1,26 @@
+# Cria uma lista de candidatos com resultados nas etapas do processo seletivo
+candidatos = ["e5_t8_p6_s9", "e7_t6_p7_s8", "e6_t9_p5_s7", "e8_t7_p6_s6"]
+
+# Função para buscar candidatos compatíveis com base em critérios
+def buscar_candidatos_compativeis(candidatos, criterios):
+    candidatos_compativeis = []
+    for candidato in candidatos:
+        avaliacoes = [int(avaliacao[1:]) for avaliacao in candidato.split("_")]  # Divide a string e converte para int
+        # Verifica se o candidato atende aos critérios definidos pelo usuário
+        if all(avaliacao >= criterio for avaliacao, criterio in zip(avaliacoes, criterios)):
+            candidatos_compativeis.append(candidato)
+    return candidatos_compativeis
+
+# Permite ao usuário digitar critérios
+criterios = [int(input("Avaliação na entrevista: ")), int(input("Avaliação no teste teórico: ")), int(input("Avaliação no teste prático: ")), int(input("Avaliação nas soft skills: "))]
+
+# Chama a função de busca de candidatos compatíveis
+candidatos_encontrados = buscar_candidatos_compativeis(candidatos, criterios)
+
+# Exibe os candidatos compatíveis
+if candidatos_encontrados:
+    print("Candidatos compatíveis:")
+    for candidato in candidatos_encontrados:
+        print(candidato)
+else:
+    print("Nenhum candidato compatível encontrado.")
