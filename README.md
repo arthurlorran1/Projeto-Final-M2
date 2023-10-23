@@ -9,7 +9,8 @@ Abra o terminal ou prompt de comando.
 
 Instale as bibliotecas necessárias: numpy; selenium e pandas.
 
-Conhecendo as funcionalidades no código:
+
+
 
 Aqui está um resumo dos principais componentes do programa:
 
