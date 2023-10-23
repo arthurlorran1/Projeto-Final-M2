@@ -1,6 +1,16 @@
 # Projeto-Final-M2
 Esse é o projeto individual do segundo modulo do curso de analise de dados SENAC/RESILIA 2023
 
+
+Instruções de Instalação:
+Certifique-se de ter o Python instalado no seu sistema. Baixe o Python aqui, se necessário.
+
+Abra o terminal ou prompt de comando.
+
+Instale as bibliotecas necessárias: numpy; selenium e pandas.
+
+Conhecendo as funcionalidades no código:
+
 Aqui está um resumo dos principais componentes do programa:
 
 Classe Candidato: Primeiro, criamos uma classe chamada Candidato que tem atributos para armazenar informações sobre o candidato, como número do candidato, nota na entrevista, nota no teste teórico, nota no teste prático e nota na avaliação de soft skills.
