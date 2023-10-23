@@ -28,3 +28,18 @@ Feedback do Usuário: O programa fornece feedback para o usuário, incluindo men
 
 Validação de Entrada: O programa valida as entradas do usuário para garantir que sejam do tipo correto (por exemplo, números em vez de letras).
 
+# Exemplo de Uso:
+
+O usuário pode armazenar informações de candidatos digitando seus números e notas nas etapas.
+O usuário pode buscar candidatos que atendam a critérios específicos, fornecendo as notas mínimas.
+Os candidatos compatíveis são listados.
+A atividade permite armazenar informações de candidatos e filtrar candidatos que atendem a critérios específicos, facilitando a seleção de candidatos compatíveis com as vagas. Certifique-se de testar o código com diferentes candidatos e critérios para avaliar seu funcionamento.
+
+# Pontos de Avaliação:
+
+Verifique se o código é capaz de armazenar candidatos e buscar candidatos compatíveis.
+Avalie se as notas mínimas são usadas corretamente para determinar a compatibilidade.
+Certifique-se de que o menu interativo funcione conforme o esperado.
+Verifique se o código está bem organizado e documentado.
+A implementação fornece uma maneira eficaz de armazenar e filtrar candidatos para um processo seletivo.
+
