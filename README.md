@@ -6,7 +6,7 @@ Este programa é uma ferramenta útil para empresas que desejam gerenciar candid
 # Instruções de Instalação:
 Certifique-se de ter o Python instalado no seu sistema. Baixe o Python aqui, se necessário.
 
-# Abra o terminal ou prompt de comando.
+Abra o terminal ou prompt de comando.
 
 Instale as bibliotecas necessárias: numpy; selenium e pandas.
 
